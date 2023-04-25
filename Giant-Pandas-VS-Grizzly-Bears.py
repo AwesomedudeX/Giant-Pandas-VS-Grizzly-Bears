@@ -12,9 +12,9 @@ sects = [
 	"Sources"
 ]
 
-sect = st.sidebar.radio("Section:", sects)
-
 st.sidebar.write("To switch between light and dark mode, click the 3 lines in the top right and hit \"Settings\". From there, use the selection box under \"Theme\" to select the website theme.")
+
+sect = st.sidebar.radio("Section:", sects)
 
 if sect == "Home":
 
