@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 from PIL import Image as img
 
+base = "dark"
+
 st.set_page_config(page_title="Giant Pandas VS Grizzly Bears: What's The Difference?", page_icon="🐼", layout='centered', initial_sidebar_state='auto')
 
 sects = [
