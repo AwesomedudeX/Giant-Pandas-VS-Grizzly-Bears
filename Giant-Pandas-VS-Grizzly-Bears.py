@@ -62,9 +62,9 @@ if sect == "Diet and Habitat: Giant Pandas":
 	c1, c2 = st.columns(2)
 
 	with c1:
-		st.expander("Zhangjajie National Montane Forest Park").image("https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/1_tianzishan_wulingyuan_zhangjiajie_2012.jpg/1200px-1_tianzishan_wulingyuan_zhangjiajie_2012.jpg", caption="https://en.wikipedia.org/wiki/Zhangjiajie_National_Forest_Park", width=320)
+		st.expander("Zhangjajie National Montane Forest Park").image("https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/1_tianzishan_wulingyuan_zhangjiajie_2012.jpg/1200px-1_tianzishan_wulingyuan_zhangjiajie_2012.jpg", caption="https://en.wikipedia.org/wiki/Zhangjiajie_National_Forest_Park", width=310)
 	with c2:
-		st.expander("Changbai Mountains Mixed Forest").image("https://upload.wikimedia.org/wikipedia/commons/b/b2/Forests_in_Changbai_Mountain.jpg", caption="https://en.wikipedia.org/wiki/Changbai_Mountains_mixed_forests", width=320)
+		st.expander("Changbai Mountains Mixed Forest").image("https://upload.wikimedia.org/wikipedia/commons/b/b2/Forests_in_Changbai_Mountain.jpg", caption="https://en.wikipedia.org/wiki/Changbai_Mountains_mixed_forests", width=310)
 
 
 if sect == "Diet and Habitat: Grizzly Bears":
